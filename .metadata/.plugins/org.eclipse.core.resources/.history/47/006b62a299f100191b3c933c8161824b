@@ -1,0 +1,8 @@
+package day1;
+
+public class Sum {
+	int a,b;
+	int c=a+b;
+	System.out.println("Sum od two numbers: "+c);
+
+}

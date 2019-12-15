@@ -1,0 +1,30 @@
+package practice;
+
+class A {
+	public void Dog() {
+		System.out.println("Sound is Bark");
+	}
+}
+class B extends A {
+	public void Dog() {
+		System.out.println("Colour is Brown");
+	}
+}
+public class PolyExample extends B{
+	public void Dog() {
+		System.out.println("Originated from Africa");
+	}
+	public static void main(String[] args) {
+		A a;
+		a=new A();
+		a.Dog();
+		A a1;
+		a1=new B();
+		a1.Dog();
+		A a2;
+		a2=new PolyExample();
+		a1.Dog();
+		
+	}
+
+}
